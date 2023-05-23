@@ -1,0 +1,200 @@
+* {   
+    font-family: 'Inter', sans-serif;
+    line-height: 150%;
+    
+}
+
+body {
+    background-color: #472a49;
+    background-image: url(./image/rio_cristo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;    
+
+    width: 99vw;
+    height: 90vh;
+    padding: 0;    
+    margin: auto;    
+
+    
+  }
+
+
+.logoAlura {
+    margin-left: 60px;
+    padding-top: 10px;
+    width: 3%;
+    position: absolute;
+}
+
+main {
+    display: flex;
+    gap: 60px;
+    justify-content: center ;
+    margin-bottom: 50px;
+    margin-left: 400px;
+    margin-top: 70px;
+    border-radius: 38px;
+
+    background-color:rgba(81, 136, 133, 0.281); 
+
+    width: 1380px;
+    height: 940px;
+    padding: 40px;
+    position: relative;   
+
+}
+
+.text-area {
+    border: none;
+    border-radius: 32px;
+    color: #f8f8f8;
+    margin-top: 90px;
+    text-transform: lowercase;
+    font-size: 38px;
+    line-height: 48px;
+    padding-left: 40px;
+    padding-top: 28px;
+
+    background-color:rgba(139, 139, 180, 0.3);
+   
+
+    
+}
+
+::placeholder { 
+    color: #ffffff; 
+    font-style: italic;
+    font-size: 28px;
+    align-items: center;
+} 
+    .text-area:focus {
+        outline: none;        
+    }
+
+
+section p {
+    font-size: 42px;
+    font-weight: bolder;
+    margin-top: 150px;
+    border-radius: 38px;
+    color: hsl(235, 22%, 90%);
+    background-color:rgba(101, 101, 155, 0.2);
+}
+
+#mensagem {
+    font-size: 30px;
+    outline: none;
+    text-transform: lowercase;
+    border: none;
+    border-radius: 28px;
+    margin-top: 90px;
+    border-radius: 20px;
+    color: #f6f7f7;
+    text-align: center;
+    
+    
+
+    padding: 28px 8px;
+
+    
+    background-color:rgba(101, 101, 155, 0.3); 
+          
+}
+
+.resultado {
+    height: 920px;
+    width: 400px;
+    background: white;
+
+    
+    border-radius: 32px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 10px;
+    position: relative;
+
+    background-color:rgba(177, 177, 209, 0.01);  
+
+    
+}
+
+.imagem {
+    background: white;
+    
+    background-repeat: no-repeat;
+
+    width: 89%;
+    margin-top: 420px;
+
+    position: absolute;
+    background-color:rgba(118, 118, 168, 0.2);  
+    
+
+}
+
+.btn-desencriptar {
+    background: #b4bdca;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar {
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.btnCopiar {
+    background-color: #e6e9ee;
+    border: 1px solid #0a3871;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-top: 795px;
+    position: absolute;
+    width: 336px;
+}
+
+section .informacao {
+    margin: 118px 0 0;
+    color: #bdcad6;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.footer {
+    margin-top: 890px;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #d1cceb;
+
+
+    position: absolute;	
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+

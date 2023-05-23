@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>  
+  <link rel="stylesheet" href="style.css">  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img class="logoAlura" src="./image/logoAlura.png" alt="Logo Alura">
+  </header>
+
+  <main>
+    <section>
+        <textarea class="text-area" cols="41" rows="4" placeholder="Digite seu texto aqui"></textarea>
+
+        <p>Digite um texto que você <br>deseja criptografar  ou descriptografar.</p>
+        
+        <div class="informacao">
+          <h6>Apenas letras minisculas e sem acento.</h6>
+        </div>
+
+
+        <div class="botoes">
+          <button class="btn-encriptar" onclick="btnEncriptar()">Criptografar</button>
+          <button class="btn-desencriptar" onclick="btnDesencriptar()">Descriptografar</button>
+        </div>
+  </section>
+  
+  <section>
+      <div class="resultado">  
+        <textarea id="mensagem" cols="19" rows="5" placeholder="Resultado" value=""></textarea>
+
+        <img class="imagem" src="./image/avatar.png" alt="imagem de um rapaz ajoalhado examinando um diamante com uma lupa">
+        
+        <button type="button" class="btnCopiar">Copiar</button>
+      </div>
+  </section>
+
+  <div class="footer">
+    <p class="copyright">&copy; Challenge T5 Oracle + Alura - 2023 / aluno Ekner Almeida.</p>
+  </div>
+
+  </main>
+
+  <script src="script.js"></script>
+
+  
+</body>
+</html>
